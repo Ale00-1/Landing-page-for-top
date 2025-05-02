@@ -4,4 +4,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 2px solid red
 }
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+main{
+    display:flex;
+    gap: 70px;
+    flex-direction: column;
+}
+header{
+    display: flex; 
+    align-items: center;
+    padding: 0 48 0 48
+}
+.web, header {
+    background-color: #1F2937;
+}
+.web h2{
+    font-size:48px;
+    color: #F9FAF8;
+    font-weight:900;
+}   
+
+
