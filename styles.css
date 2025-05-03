@@ -10,24 +10,87 @@ body{
     display:flex;
     flex-direction: column;
     font-family: Roboto;
+    
 }
+
 main{
     display:flex;
-    gap: 70px;
     flex-direction: column;
 }
 header{
-    display: flex; 
-    align-items: center;
-    padding: 0 48 0 48
+    display:flex;
+    color:white;
+    height:5vh
+}
+
+.links{
+    display:flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.web{
+    display:flex;
+    height:22.5vh
 }
 .web, header {
     background-color: #1F2937;
+}
+.web .left{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    flex-grow:1;
+    max-width:50%;
+}
+.web .right{
+    display:flex;
+    flex-grow:1;
+    justify-content:center;
+    align-items:center;
+    background-color:gray;
+
 }
 .web h2{
     font-size:48px;
     color: #F9FAF8;
     font-weight:900;
 }   
-
+.random{
+    display:flex;
+    flex-direction:column;
+    height:22.5vh;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+.random h3{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900
+}
+.random .squares{
+    display:flex;
+    gap: 2.5vw;
+    flex-basis: 60vw;
+    flex-wrap:wrap;
+}
+.random .squares .box{
+    height:70%
+}
+.random .squares p{
+    height:30%;
+    text-align:center;
+}
+.quote{
+    height:22.5vh
+}
+.call{
+    height:22.5vh
+}
+footer{
+    height:5vh
+}
 
