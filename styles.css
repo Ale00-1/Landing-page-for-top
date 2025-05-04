@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 2px solid red
+    /* outline: 2px solid red */
 }
 body{
     display:flex;
@@ -20,7 +20,12 @@ main{
 header{
     display:flex;
     color:white;
-    height:5vh
+    height:5vh;
+    justify-content:space-between;
+}
+header>*,main>*,footer>*{
+    padding-left:10vw;
+    padding-right:10vw;
 }
 
 .links{
@@ -74,8 +79,9 @@ a{
 .random .squares{
     display:flex;
     gap: 2.5vw;
-    flex-basis: 60vw;
+    flex-basis: 55vw;
     flex-wrap:wrap;
+    justify-content:center;
 }
 .random .squares .box{
     height:70%
@@ -85,12 +91,62 @@ a{
     text-align:center;
 }
 .quote{
-    height:22.5vh
+    height:22.5vh;
+    background-color: #E5E7EB;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.quote .container{
+    display:flex;
+    flex-direction:column; 
+    max-width: 75vw;
+}   
+.quote .phrase{
+    font-size:36px;
+    font-style: italic;
+    font-weight:lighter;
+}
+
+.quote .from{
+    align-self: flex-end;
+    font-size:24px;
+    font-weight: bold;
 }
 .call{
-    height:22.5vh
+    height:22.5vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.call .rectangle{
+    height:50%;
+    display:flex;
+    flex-basis: 100%;
+    background-color:rgb(0, 153, 255);
+    color:white;
+
+}
+.call .rectangle .left{
+    flex-basis:80%;
+    padding: 2.5% 5% 2.5% 5%;
+}
+.call .rectangle .left .big{
+    font-size: 24px;
+    font-weight:bold;
+}
+.call .rectangle .right{
+    display:flex;
+    justify-content:center;
+    align-content:center;
 }
 footer{
-    height:5vh
+    height:5vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #1F2937;
+    color:white;
 }
 
