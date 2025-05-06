@@ -95,7 +95,7 @@ a{
     height:40vh;
     justify-content:center;
     align-items:center;
-    gap:20px;
+    gap: 20px;
     padding-top:2vh;
 }
 .random h3{
@@ -111,12 +111,21 @@ a{
     justify-content:center;
 
 }
+.random .squares div{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
 .random .squares .box{
-    height:70%
+    width: 95%;
+    height:70%;
+    outline: 5px solid rgba(0, 85, 255, 0.627);
+    border-radius:5px; 
 }
 .random .squares p{
     height:30%;
     text-align:center;
+    color:#717171;
 }
 .quote{
     height:40vh;
