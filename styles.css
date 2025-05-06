@@ -4,7 +4,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        /* outline: 2px solid red */
     }
     body{
         display:flex;
@@ -13,10 +12,6 @@
         
     }
 
-    main{
-        display:flex;
-        flex-direction: column;
-    }
     header{
         display:flex;
         color:#F9FAF8;
@@ -74,9 +69,6 @@
         color:white;
 
 
-    }
-    .web, .call .rectangle {
-    flex-wrap: wrap;
     }
 
     .web h2{
